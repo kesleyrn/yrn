@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.form-box{
+    width: 65vh;
+    height: auto;
+    padding: 30px 10px;
+    border-radius: 15px;
+    box-shadow: 2px 1px 2px 1px rgba(0,0,0,0.15);
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    margin: 0 100px;
+    cursor: pointer;
+}
+.logo i{
+    font-size: 30px;
+    color: rgb(240, 139, 67);
+    object-fit: cover;
+}
+.logo h1{
+    color: rgb(240, 139, 67);
+    font-size: 30px;
+    text-align: center;
+}
+.text-form{
+    padding: 0 25px;
+    color: rgba(43, 43, 43, 0.774);
+}
+.text-form h2{
+    font-size: 25px;
+}
+.text-form p{
+    color: rgba(148, 148, 148, 0.863);
+}
+.inputs{
+    padding: 20px;
+    
+}
+.inputs input{
+    width: 50vh;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 18px;
+    color: rgba(32, 32, 32, 0.555);
+    border-radius: 5px;
+    border: 1px solid rgba(148, 148, 148, 0.555);
+    outline: none;
+}
+.inputs input:focus{
+    border: 2px solid rgba(142, 170, 255, 0.308);
+    background-color: #fff;
+}
+.check-box{
+    display: flex;
+    text-align: center;
+    padding: 0 20px;
+    color: rgba(71, 71, 71, 0.945);
+}
+.forget a{
+    margin-left: 80px;
+    color: #1877F2;
+}
+.check-box input{
+    width: 20px;
+}
+.check-box p{
+    padding: 0 15px;
+}
+.check-box a{
+    text-decoration: none;
+    color: chocolate;
+}
+.btns{
+    text-align: center;
+    align-items: center;
+    color: rgba(71, 71, 71, 0.945);
+}
+.btn{
+    width: 50vh;
+    height: 40px;
+    background-color: rgb(240, 139, 67);
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: -40px;
+}
+.btns a{
+    text-decoration: none;
+    color: rgb(240, 139, 67);
+}
+.line{
+    text-align: center;
+    width: 50vh;
+    margin-left: 20px;
+    font-size: 18px;
+    color: rgba(148, 148, 148, 0.555);
+}
+.icon-form{
+    text-align: center;
+    font-size: 20px;
+}
+.icon-form i{
+    padding: 10px;
+    cursor: pointer;
+}
+.message p{
+    color: red;
+    position: absolute;
+    left: 71vh;
+    bottom: 42vh;
+    padding: 20px;
+    transition: 1s;
+}
